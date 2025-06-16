@@ -6,10 +6,10 @@ namespace BlazorServerDemo
     {
         public static IServiceCollection AddDemoInfo(this IServiceCollection services)
         {
-            services.AddTransient<IDemo, Demo>();
+            services.AddScoped<IDemo, Demo>();
             services.AddTransient<IUtcDemo, UtcDemo>();
             services.AddTransient<ILocalDemo, Demo>();
-            services.AddTransient<ProcessDemo>();
+            services.AddSingleton<ProcessDemo>();
 
             return services;
         }
