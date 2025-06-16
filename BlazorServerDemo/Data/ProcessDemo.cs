@@ -2,22 +2,20 @@ namespace BlazorServerDemo.Data;
 
 public class ProcessDemo
 {
+    //private readonly IServiceProvider _serviceProvider;
+
     public readonly IDemo _demo;
 
     public ProcessDemo(IDemo demo)
     {
         _demo = demo;
-        //foreach (var demo in demos)
-        //{
-        //    if (demo is ILocalDemo)
-        //    {
-        //        _demo = demo;
-        //    }
-        //}
+        //_serviceProvider = serviceProvider;
     }
 
     public int GetDayInMonth()
     {
+        //var _demo = _serviceProvider.GetRequiredService<IDemo>();
+
         return _demo.StartupTime.Month switch
         {
             1 => 31,
