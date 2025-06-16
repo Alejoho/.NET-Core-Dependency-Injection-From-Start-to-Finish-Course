@@ -1,6 +1,4 @@
 using BlazorServerDemo.Components;
-using BlazorServerDemo.Data;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace BlazorServerDemo;
 
@@ -15,16 +13,13 @@ public class Program
             .AddInteractiveServerComponents();
         builder.Services.AddDemoInfo();
 
-        //builder.Services.AddSingleton<IDemoWithData>(new DemoWithData(5));
+        //int number = 5;
+        //builder.Services.AddTransient<IDemoWithData>(i => new DemoWithData(++number));
 
-        //builder.Services.AddTransient<IDemoWithData>(i => new DemoWithData(5));
-        int number = 5;
-        builder.Services.AddTransient<IDemoWithData>(i => new DemoWithData(++number));
 
-        //builder.Services.AddTransient<IDemoWithData>(i => new DemoWithData(0));
-        builder.Services.TryAddTransient<IDemoWithData>(i => new DemoWithData(0));
-        builder.Services.TryAddTransient<IDemo, Demo>();
-        builder.Services.TryAddEnumerable(ServiceDescriptor.Transient<IDemo, Demo>());
+        //builder.Services.TryAddTransient<IDemoWithData>(i => new DemoWithData(0));
+        //builder.Services.TryAddTransient<IDemo, Demo>();
+        //builder.Services.TryAddEnumerable(ServiceDescriptor.Transient<IDemo, Demo>());
 
         var app = builder.Build();
 
