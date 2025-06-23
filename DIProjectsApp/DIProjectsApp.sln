@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIDemoLib", "DIDemoLib\DIDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService", "WorkerService\WorkerService.csproj", "{E7F5286D-6691-448A-891B-2349085D5568}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{E7F5286D-6691-448A-891B-2349085D5568}.Release|x64.Build.0 = Release|Any CPU
 		{E7F5286D-6691-448A-891B-2349085D5568}.Release|x86.ActiveCfg = Release|Any CPU
 		{E7F5286D-6691-448A-891B-2349085D5568}.Release|x86.Build.0 = Release|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Debug|x64.Build.0 = Debug|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Debug|x86.Build.0 = Debug|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Release|x64.ActiveCfg = Release|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Release|x64.Build.0 = Release|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Release|x86.ActiveCfg = Release|Any CPU
+		{7C10C6CF-A6DF-4CD7-A918-5A153AA46B8F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
